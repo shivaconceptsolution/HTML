@@ -1,0 +1,45 @@
+<b> :-  it is used to convert font into bold
+<i> :-  It is used to convert text into italic
+<strike> :-  it is used to convert text into cross text
+
+<u> :-  It is used to write underline text
+
+<center> :-  It is used to manage center alignment to html content.
+
+<mark> :-  it is used to highlight html text
+
+<a> :- a means anchor tag ,it is used to create hyperlink under html element
+
+<a href="pagename">About</a>  
+
+<sup> :-  IT is used to create superscript text.
+
+<p>Shiva Concept Solution<sup>TM</sup></p>
+
+<sub> :-  IT is used to create subscript text.
+<p>H<sub>2</sub>O</p>
+
+<table> :-  IT is used to create table format under HTML page.
+
+<tr>:-  IT is used to create row
+<td>:-   It is used to create column
+<th>:-   It is used to provide Table Heading
+
+<ul>:-  It is called unordered list ,which contain set of list items.
+<ul>
+<li>C</li>
+<li>CPP</li>
+<li>JAVA</li>
+<li>.NET</li>
+</ul>
+
+<ol> :-  It is used to create ordered list ,it also contain set of list items.
+
+<ol>
+<li>C</li>
+<li>CPP</li>
+<li>DS</li>
+<li>JAVA</li>
+
+
+</ol> 
