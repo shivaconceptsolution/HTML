@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#header
+		{
+			height:100px;
+			background-color:#4867AA
+		}
+		#logo
+		{
+         float:left;
+         width:30%;
+         height:75%;
+         padding-top:10px;
+         padding-left:160px;
+
+		}
+		#login{
+			float:right;
+			width:55%; 
+			height:75%;
+		}
+		#logintable{
+
+			margin-left:100px;
+			margin-top:25px;
+		}
+        #middlecontainer
+        {
+        	height:650px;
+        	background-color:#EDF0F5;
+        }
+         #middleleft
+        {
+        	float:left;
+        	height:100%;
+        	width:50%;
+        	border:1px solid red;
+        }
+         #middleleftfirst
+        {
+        	margin-top:90px;
+        	margin-left: 100px;
+        }
+         #middleright
+        {
+        	float:right;
+        	height:100%;
+        	width:49%;
+        	border:1px solid red;
+        }
+       #login input[type="button"]{
+
+        background-color:blue;
+        color:white;
+        font-weight: bolder;
+         border:0px ; 	
+        }
+       #login td{
+         color:white;
+        }
+        a{
+         color:white;
+        }
+       #middleleftfirst p{
+        	font-size: 27px;
+        	font-weight: bolder;
+        	color:blue;
+        }
+        #middleright tr{
+        	height: 50px;
+        }
+        .text1
+        {
+        height:35px;
+        width:195px;
+        border-radius: 3px; 
+        padding-left: 3px;	
+        }
+        .text2{
+        	height:25px;
+        	width:400px;
+        	border-radius: 6px;
+        }
+        #birth
+        {
+        	font-size: 22px;
+        	color: gray;
+        	font-weight: bolder;
+        }
+        #gender{
+        	font-size: 22px;
+        	color: gray;
+        	font-weight: bolder;
+        }
+        #middleright input[type="button"]
+        {
+        	width: 200px;
+        	height: 35px;
+        	border-radius: 5px;
+        	background-color: green;
+        }
+         #middleright input[type="radio"]{
+         	color:black;
+         }
+        #footer{
+        	height:100px;background-color:#FFFFFF
+        }
+	</style>
+</head>
+<body>
+<div id="header">
+<div id="logo">
+ <img src="logo.jpg" width="210" height="75" />
+</div>	
+<div id="login">
+ <table id="logintable">
+ 	<tr><td >Email or Phone</td><td style="color:white;">Password</td><td></td></tr>
+ 	<tr><td><input type="text" /></td><td><input type="text" /></td><td><input type="button" value="Log in" ></td></tr>
+ 	<tr><td></td><td><a href="" >Forgotten account?</a></td><td></td></tr>
+ </table>
+</div>	
+</div>	
+<div id="middlecontainer">
+<div id="middleleft">
+	<div id="middleleftfirst">
+	<p >Facebook helps you connect and share with the people in your life</p>
+   <img src="bg.png" >
+    </div>
+</div>	
+<div id="middleright">
+<h1>Create An Account</h1>	
+<h3>It's quick and easy.</h3>	
+<table >
+<tr><td style="width:32%;"><input class="text1" type="text" placeholder="First name" /></td><td style="width:63%;"><input class="text1" type="text" name="" placeholder="Surname"/></td></tr>
+<tr s><td colspan="2"><input class="text2" type="text" placeholder="Mobile number or email address "/></td></tr>
+<tr ><td colspan="2"><input class="text2" type="password" placeholder="New Password"  /></td></tr>
+<tr><td colspan="2" id="birth">Birthday</td></tr>
+<tr ><td colspan="2"><select><option value="">10</option><option value="">Day</option><option value="">1</option><option value="">2</option></select><select><option value="">DEC</option><option value="">MONTH</option><option value="">Jan</option><option value="">Feb</option></select><select><option value="">1994</option><option value="">YEAR</option><option value="">2019</option><option value="">2018</option></select></td></tr>
+<tr ><td colspan="2" id="gender">Gender</td></tr>
+<tr ><td colspan="2"><input type="radio"   />Female <input type="radio"   />Male <input type="radio"   />Custom</td></tr>
+<tr ><td colspan="2"><p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p></td></tr>
+<tr ><td colspan="2"><input  type="button" value="Sign UP"   /></td></tr>
+</table>	
+</div>	
+</div>
+<div id="footer">
+
+</div>
+</body>
+</html>

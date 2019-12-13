@@ -1,0 +1,105 @@
+#header
+		{
+			height:100px;
+			background-color:#4867AA
+		}
+		#logo
+		{
+         float:left;
+         width:30%;
+         height:75%;
+         padding-top:10px;
+         padding-left:160px;
+
+		}
+		#login{
+			float:right;
+			width:55%; 
+			height:75%;
+		}
+		#logintable{
+
+			margin-left:100px;
+			margin-top:25px;
+		}
+        #middlecontainer
+        {
+        	height:650px;
+        	background-color:#EDF0F5;
+        }
+         #middleleft
+        {
+        	float:left;
+        	height:100%;
+        	width:50%;
+        	border:1px solid red;
+        }
+         #middleleftfirst
+        {
+        	margin-top:90px;
+        	margin-left: 100px;
+        }
+         #middleright
+        {
+        	float:right;
+        	height:100%;
+        	width:49%;
+        	border:1px solid red;
+        }
+       #login input[type="button"]{
+
+        background-color:blue;
+        color:white;
+        font-weight: bolder;
+         border:0px ; 	
+        }
+       #login td{
+         color:white;
+        }
+        a{
+         color:white;
+        }
+       #middleleftfirst p{
+        	font-size: 27px;
+        	font-weight: bolder;
+        	color:blue;
+        }
+        #middleright tr{
+        	height: 50px;
+        }
+        .text1
+        {
+        height:35px;
+        width:195px;
+        border-radius: 3px; 
+        padding-left: 3px;	
+        }
+        .text2{
+        	height:25px;
+        	width:400px;
+        	border-radius: 6px;
+        }
+        #birth
+        {
+        	font-size: 22px;
+        	color: gray;
+        	font-weight: bolder;
+        }
+        #gender{
+        	font-size: 22px;
+        	color: gray;
+        	font-weight: bolder;
+        }
+        #middleright input[type="button"]
+        {
+        	width: 200px;
+        	height: 35px;
+        	border-radius: 5px;
+        	background-color: green;
+        }
+         #middleright input[type="radio"]{
+         	color:black;
+         }
+        #footer{
+        	height:100px;background-color:#FFFFFF
+        }
