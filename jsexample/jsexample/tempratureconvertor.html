@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var option='';
+        function fun1(a)
+        {
+            option=a;
+        }
+        function calc()
+        {
+            var num = parseInt(document.getElementById("txtnum").value);
+            if(option == 'c')
+            {
+                c = (5*num-160)/9;
+                document.getElementById("res").innerHTML=c;
+            }
+            else
+            {
+              f =  (9*num+160)/5;
+              document.getElementById("res").innerHTML=f;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="radio" name="convertor" value="c" onchange="fun1(this.value)" />Celsious
+    <input type="radio" name="convertor" value="f" onchange="fun1(this.value)" />Farenhite
+    <br>
+    <input type="text" id="txtnum" placeholder="Enter temprature value" />
+    <br>
+    <input type="button" name="btnconvert" value="Convert" onclick="calc()" />
+    <div id="res"></div>
+</body>
+</html>

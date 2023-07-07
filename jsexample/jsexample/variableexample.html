@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       const a=100;
+     //  a=20;
+        {
+            const a=20;
+         //   a=1000;
+            document.write("local scope a="+a);
+        }
+        {
+            const a=1;
+            document.write("local scope a="+a);
+        }
+        document.write("global scope a="+a);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

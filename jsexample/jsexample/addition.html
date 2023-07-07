@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addLogic()
+        {
+          //  document.write("Addition Program");
+            var a = document.getElementById("txtnum1").value; // "1000"
+            var b = document.getElementById("txtnum2").value; // "2"
+            var c = parseInt(a)+parseInt(b); // 1000 + 2
+            document.write("Result is "+c);
+        }
+    </script>
+</head>
+<body>
+      <h1>Addition Program</h1>
+      <hr>
+      <input type="text" id="txtnum1" placeholder="Enter First Number" />
+      <br><br>
+      <input type="text" id="txtnum2" placeholder="Enter Second Number" />
+      <br><br>
+      <input type="button" value="Addition" onclick="addLogic()" />
+</body>
+</html>
