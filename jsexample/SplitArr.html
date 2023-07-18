@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var arr = [1,2,3,4,5,6,7,8,9,10,11,23];
+    var size = arr.length;
+    var size1 = parseInt(size/3);
+    var size2 = parseInt(size/3);
+    var size3 = size-(size1+size2);
+    var arr1=[]
+    var arr2=[]
+    var arr3=[]
+  
+    for(var i=0;i<size;i++)
+    {
+        if(i<size1)
+        {
+             arr1.push(arr[i]);
+        }
+        else if(i<size1+size2)
+        {
+            arr2.push(arr[i]);
+        }
+        else
+        {
+            arr3.push(arr[i]);
+        }
+    }
+   document.write("First Array Elements Are <br>");
+    for(var data of arr1)
+    {
+        document.write(data + " ");
+    }
+    document.write("<br>Second Array Elements Are <br>");
+    for(var data of arr2)
+    {
+        document.write(data + " ");
+    }
+    document.write("<br>Third Array Elements Are <br>");
+    for(var data of arr3)
+    {
+        document.write(data + " ");
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr =[[1,7,8,5],[7,9,11,15]];
+        for(var i=0;i<2;i++)
+        {
+            for(var j=0;j<arr[i].length;j++)
+            {
+                //document.write(arr[i][j] + " ");
+                var num = arr[i][j];
+                var flag=true;
+                for(var k=2;k<num;k++)
+                {
+                    if(num%k==0)
+                    {
+                        flag=false;
+                        break;
+                    }
+                }
+                if(flag && num!=1)
+                {
+                    document.write("Prime " +arr[i][j] + "<br>");
+                }
+            }
+            document.write("<br>");
+        }
+
+    </script>
+</body>
+</html>
