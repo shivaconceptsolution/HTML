@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[2,34,67,89,11,54,68];
+        var max=0;
+        var smax=0;
+        for(var i=0;i<arr.length;i++)
+        {
+            if(max<arr[i]) //89<11
+            {
+                smax=max;
+                max=arr[i]; //89
+            }
+            else if(smax<arr[i])
+            {
+                smax=arr[i];
+            }
+        }
+      document.write("Max is "+max + "<br>");
+      document.write("second max is "+smax + "<br>");
+    </script>
+</body>
+</html>

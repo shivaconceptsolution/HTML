@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var arr = ["abcde","aaaaaa","ssssssssss","kkkkk",'jaykumar'];
+         var max=0;
+         var maxs="";
+         for(var i=0;i<arr.length;i++)
+         {
+            var s= arr[i];
+            var flag=true;
+            for(var j=0;j<s.length/2;j++)
+             {
+                 if(s[j]!=s[(arr.length-1)-j])
+                    {
+                       flag=false;
+                       break;
+                    }
+              }
+              if(flag)
+              {
+                if(max<s.length)
+                {
+                    max=s.length;
+                    maxs=s;
+                }
+              document.write(s + "<br>");
+              }
+         }
+         document.write("Max length pallindrom " +maxs + " <br>");
+    </script>
+</body>
+</html>

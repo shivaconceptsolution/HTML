@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var a=1000;
+      var b=200;
+      var c=30;
+      switch(a>b && a>c)
+      {
+         case true:
+            document.write("a is greatest");
+            break;
+        default:
+            switch(b>c)
+            {
+                case true:
+                    document.write("b is greatest");
+                    break;
+                default:
+                    document.write("c is greatest");
+                    break;    
+            }
+            break;
+      }
+    </script>
+</body>
+</html>
