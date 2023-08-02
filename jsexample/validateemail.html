@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var email = "xyz.123@gmail.com";
+        var atpos=0;
+        var dotpos=0;
+        for(var i=0;i<email.length;i++)
+        {
+             if(email[i]=='@')
+             {
+                atpos=i;
+             }
+             else if(email[i]=='.')
+             {
+                dotpos=i;
+             }
+        }
+        if(atpos==0 || dotpos==0 || atpos>dotpos || dotpos-atpos<3 || dotpos+1==email.length)
+        {
+            document.write("Invalid emaild id");
+        }
+        else
+        {
+            document.write("valid emailid");
+        }
+    </script>
+</body>
+</html>

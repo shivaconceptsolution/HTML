@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var s = "abCDEfghJKL";
+    var s1='';
+    for(var data of s)
+    {
+           if(data>='a' && data<='z')
+           {
+            s1 = s1 + String.fromCharCode(data.charCodeAt()-32)
+
+           }
+           else
+           {
+            s1 = s1 + String.fromCharCode(data.charCodeAt()+32)
+           }
+    }
+    document.write(s1);
+    </script>
+</body>
+</html>
